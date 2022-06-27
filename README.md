@@ -7,5 +7,7 @@ A variety of sorting algorithms that I've programmed.
 # Current Sorts
   - Bubble Sort (As of Version 1.0)
 # Changelog
+  *Version 1.1* (June 27th, 2022)
+  - Alteration to Bubble Sort; near-unusued operator ``c`` was removed from the program, as it served the same function entirely as ``a``. All mentions of ``d`` have now been replaced with ``c``.
   *Version 1.0* (June 26th, 2022)
   - Bubble Sort has been added.
