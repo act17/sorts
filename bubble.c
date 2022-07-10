@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+double * sorted;
 
 double * bubble(double * array, int size){
-	double sorted[size];
+	sorted = malloc(sizeof(size));
 	for(int i = 0; i < size; i++)
 		sorted[i] = array[i];
 	int c = 0;					//Number that represents the array entries viewed by the program.
@@ -31,9 +32,9 @@ double * bubble(double * array, int size){
 							//However, this skips if we're on the last number as to avoid issues.
 		c = 0;					//This resets our offset.
 	}
-	for(int i = 0; i < size; i++){
+	/*for(int i = 0; i < size; i++){
 		printf("\nEntry		Sorted		Original");
 		printf("\n%d		%lf		%lf",i,sorted[i],array[i]);
-	}
-	return sorted;	
+	}*/
+	return sorted;
 }
