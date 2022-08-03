@@ -1,6 +1,7 @@
 #ifndef _SORTS_H
 #define _SORTS_H
 
-double * bubble(double * array, int size);
+void bubble(double * array,double * sorted,int size);
+void quick(double * a,double * b,int mi,int ma);
 
 #endif
