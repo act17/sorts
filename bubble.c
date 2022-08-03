@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-double * sorted;
 
-double * bubble(double * array, int size){
-	sorted = malloc(sizeof(size));
+void bubble(double * array,double * sorted,int size){
 	for(int i = 0; i < size; i++)
 		sorted[i] = array[i];
 	int c = 0;					//Number that represents the array entries viewed by the program.
@@ -36,5 +34,8 @@ double * bubble(double * array, int size){
 		printf("\nEntry		Sorted		Original");
 		printf("\n%d		%lf		%lf",i,sorted[i],array[i]);
 	}*/
-	return sorted;
+	return;
 }
+
+//Special thanks to Calvin & Hobbes profile picture @jarcode-foss on GitHub for providing me with guidance on the proper usage of
+//'malloc();' alongside the suggestion to convert this into a void and use a pre-allocated array.
