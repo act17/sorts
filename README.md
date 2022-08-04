@@ -7,10 +7,11 @@ A variety of sorting algorithms that I've programmed.
   Further thanks for the development of ``quick();`` and ``bubble();`` goes to Levi Webb (@jarcode-foss on GitHub). First for helping me fix the ``bubble();``-``malloc();`` error, then helping me develop and fix bugs with the quicksort implementation.
 # Current Sorts
   - Bubble Sort (As of Version 1.0)
+  - Quick Sort (As of Version 1.3)
 # Changelog
   *Version 1.3* (August 3rd, 2022)
   - Converted ``bubble();`` into a void macro as opposed to the ``malloc();`-failure mess that was the old ``double * bubble`` function.
-  - Added quicksort thorugh ``quick();``.
+  - Added quicksort through ``quick();``.
   
   *Version 1.2* (July 10th, 2022)
   - Called a float-pointer outside of the function ``bubble()``. As a result, you can now write the data from ``bubble()`` - and all future sorts - as pointers properly. As a result, the diagnostic-output routine has been commented in ``bubble()``.
