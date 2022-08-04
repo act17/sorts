@@ -10,7 +10,7 @@ A variety of sorting algorithms that I've programmed.
   - Quick Sort (As of Version 1.3)
 # Changelog
   *Version 1.3* (August 3rd, 2022)
-  - Converted ``bubble();`` into a void macro as opposed to the ``malloc();`-failure mess that was the old ``double * bubble`` function.
+  - Converted ``bubble();`` into a void macro as opposed to the ``malloc();``-failure mess that was the old ``double * bubble`` function.
   - Added quicksort through ``quick();``.
   
   *Version 1.2* (July 10th, 2022)
