@@ -7,7 +7,7 @@
 /*Nico Lomuto, and provided by	*/
 /*Wikipedia.			*/
 /*All I did was translate it	*/
-/*from pseudocode!		*/
+/*from pseudocode!	        */
 /*==============================*/
 
 //This function partitions and sorts the array into two halves.
