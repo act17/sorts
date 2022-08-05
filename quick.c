@@ -40,10 +40,10 @@ void qksrt(double * array,int min,int max){
 }
 
 //This function servers as a wrapper to the wrapper qksrt();.
-void quick(double * array,double * fillin,int min,int max){
+void quick(double * array,double * fillin,int max){
   for(int i = 0; i < max; i++)
     fillin[i] = array[i];
-  qksrt(fillin,min,max - 1);	//Since max is equal to inclusive size, the "max - 1" corrects this.
+  qksrt(fillin,0,max - 1);	//Since max is equal to inclusive size, the "max - 1" corrects this.
   return;
 }
 //Massive thanks to Levi Webb (@jarcode-foss on GitHub) for help with pretty much everything.
