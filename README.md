@@ -16,6 +16,7 @@ A variety of sorting algorithms that I've programmed.
   - Added all-important comments for ``quick();``.
   - Extended variable names in ``quick();`` to be more descriptive.
   - Included very-nessicary pedantic passive-aggressive notes in README.md.
+  - Issued unnessicary extra line to correct mistake with git's CLI.
 
   *Version 1.3* (August 3rd, 2022)
   - Converted ``bubble();`` into a void macro as opposed to the ``malloc();``-failure mess that was the old ``double * bubble`` function.
