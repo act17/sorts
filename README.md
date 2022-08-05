@@ -9,6 +9,8 @@ A variety of sorting algorithms that I've programmed.
   - Bubble Sort (As of Version 1.0)
   - Quick Sort (As of Version 1.3)
 # Changelog
+  *Version 1.3.2* (August 5th, 2022)
+  - Removed argument ``min`` from ``quick();``.
 
   *Version 1.3.1* (August 5th, 2022)
   - Added all-important comments for ``quick();``.
