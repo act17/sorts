@@ -3,11 +3,11 @@
 #include <time.h>
 
 /*==============================*/
-/*This algorithim was made by	*/
+/*This algorithim was made by	  */
 /*Nico Lomuto, and provided by	*/
-/*Wikipedia.			*/
-/*All I did was translate it	*/
-/*from pseudocode!		*/
+/*Wikipedia.			              */
+/*All I did was translate it	   */
+/*from pseudocode!	          	*/
 /*==============================*/
 
 //This function partitions and sorts the array into two halves.
