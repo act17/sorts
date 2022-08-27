@@ -1,14 +1,22 @@
 # sorts
 A variety of sorting algorithms that I've programmed.
+
 # General Preface
   The point of this repository is to publically show implementations of sorting algorithims that I've programmed.
+
 # Special Thanks
   Massive thanks to the YouTube Channel *udiprod* (https://www.youtube.com/c/udiprod) who gave me the primary information on sorting algorithims altogether. Another thanks is to the users of the Ubuntu Hideout Discord *Beef Broccoli*, *b-fuze (Mike32)* and *Xen* for providing me help in actually developing the program - in spite of my anger and frustration. Finally, a special thanks to *Chris7*, who pointed out an obvious error in a ``for`` loop's initialization.
   Further thanks for the development of ``quick();`` and ``bubble();`` goes to Levi Webb (@jarcode-foss on GitHub). First for helping me fix the ``bubble();``-``malloc();`` error, then helping me develop and fix bugs with the quicksort implementation.
+
 # Current Sorts
   - Bubble Sort (As of Version 1.0)
   - Quick Sort (As of Version 1.3)
+
 # Changelog
+  *Version 1.4.0* (August 26th, 2022)
+  - Added ``test.c``, which includes a quick little testing program.
+  - Redone ``bubble();`` to improve upon spacing - with tabs being now two-spaces because I use Emacs, to improve commenting, and to rename operators to be more descriptive.
+  
   *Version 1.3.2* (August 5th, 2022)
   - Removed argument ``min`` from ``quick();``.
 
