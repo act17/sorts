@@ -1,6 +1,10 @@
 # sorts
 A variety of sorting algorithms that I've programmed.
 
+# NOTE - ARCHIVED
+  As of today, January 15th, 2023, I've decided to archive this repository. The only usage I get out of programming my own sorting algorithms is to display them in my program nsortdisplay - available at https://github.com/act17/nsortdisplay.
+  By consequence of this, keeping the respository open is redundant.
+
 # General Preface
   The point of this repository is to publically show implementations of sorting algorithims that I've programmed.
 
